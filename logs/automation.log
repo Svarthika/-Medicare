@@ -1,0 +1,19 @@
+15:56:58.607 [main] INFO  testCases.TC03_LoginDD - ----Finished Invalid Email Test-----
+15:57:00.774 [main] INFO  testCases.TC03_LoginDD - ----TC_Invalid_Valid_Login_Credentials-----
+15:57:01.926 [main] INFO  testCases.TC03_LoginDD - ----User enters invalid user name-----
+15:57:02.254 [main] INFO  testCases.TC03_LoginDD - ----Finished Invalid Email Test-----
+15:57:04.355 [main] INFO  testCases.TC03_LoginDD - ----TC_Invalid_Valid_Login_Credentials-----
+15:58:51.805 [main] INFO  testCases.TC_Invalid_Valid_Login_Credentials - ----TC_Invalid_Valid_Login_Credentials-----
+15:58:52.954 [main] INFO  testCases.TC_Invalid_Valid_Login_Credentials - ----User enters invalid user name-----
+15:58:56.246 [main] INFO  testCases.TC_Invalid_Valid_Login_Credentials - ----user Enter invalid PAssword-----
+15:58:59.711 [main] INFO  testCases.TC_Invalid_Valid_Login_Credentials - ----user Enter valid Username and Password-----
+15:59:02.975 [main] INFO  testCases.TC03_LoginDD - ----TC_Invalid_Valid_Login_Credentials-----
+15:59:06.461 [main] INFO  testCases.TC03_LoginDD - ----TC_Invalid_Valid_Login_Credentials-----
+15:59:10.537 [main] INFO  testCases.TC03_LoginDD - ----TC_Invalid_Valid_Login_Credentials-----
+16:06:16.363 [main] INFO  testCases.TC_Invalid_Valid_Login_Credentials - ----TC_Invalid_Valid_Login_Credentials-----
+16:06:17.505 [main] INFO  testCases.TC_Invalid_Valid_Login_Credentials - ----User enters invalid user name-----
+16:06:28.096 [main] INFO  testCases.TC03_LoginDD - ----TC_Invalid_Valid_Login_Credentials-----
+16:06:33.034 [main] INFO  testCases.TC03_LoginDD - ----TC_Invalid_Valid_Login_Credentials-----
+16:06:37.821 [main] INFO  testCases.TC03_LoginDD - ----TC_Invalid_Valid_Login_Credentials-----
+16:06:39.027 [main] INFO  testCases.TC03_LoginDD - ----User enters invalid user name-----
+16:06:39.439 [main] INFO  testCases.TC03_LoginDD - ----Finished Invalid Email Test-----

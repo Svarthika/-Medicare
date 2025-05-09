@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-08T15:31:23 IST" name="Suite" finished-at="2025-05-08T15:32:16 IST" duration-ms="52996">
+    <groups>
+      <group name="regression">
+        <method signature="TC03_LoginDD.Invalid_Email(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC03_LoginDD@6bca7e0d]" name="Invalid_Email" class="testCases.TC03_LoginDD"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TC_Invalid_Valid_Login_Credentials.Invalid_Email()[pri:0, instance:testCases.TC_Invalid_Valid_Login_Credentials@7749bf93]" name="Invalid_Email" class="testCases.TC_Invalid_Valid_Login_Credentials"/>
+        <method signature="TC_Invalid_Valid_Login_Credentials.Invalid_Password()[pri:0, instance:testCases.TC_Invalid_Valid_Login_Credentials@7749bf93]" name="Invalid_Password" class="testCases.TC_Invalid_Valid_Login_Credentials"/>
+        <method signature="TC_Invalid_Valid_Login_Credentials.valid_Credentials()[pri:0, instance:testCases.TC_Invalid_Valid_Login_Credentials@7749bf93]" name="valid_Credentials" class="testCases.TC_Invalid_Valid_Login_Credentials"/>
+      </group> <!-- sanity -->
+      <group name="master">
+        <method signature="TC03_LoginDD.Invalid_Email(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC03_LoginDD@6bca7e0d]" name="Invalid_Email" class="testCases.TC03_LoginDD"/>
+        <method signature="TC_Invalid_Valid_Login_Credentials.Invalid_Email()[pri:0, instance:testCases.TC_Invalid_Valid_Login_Credentials@7749bf93]" name="Invalid_Email" class="testCases.TC_Invalid_Valid_Login_Credentials"/>
+        <method signature="TC_Invalid_Valid_Login_Credentials.Invalid_Password()[pri:0, instance:testCases.TC_Invalid_Valid_Login_Credentials@7749bf93]" name="Invalid_Password" class="testCases.TC_Invalid_Valid_Login_Credentials"/>
+        <method signature="TC_Invalid_Valid_Login_Credentials.valid_Credentials()[pri:0, instance:testCases.TC_Invalid_Valid_Login_Credentials@7749bf93]" name="valid_Credentials" class="testCases.TC_Invalid_Valid_Login_Credentials"/>
+      </group> <!-- master -->
+    </groups>
+    <test started-at="2025-05-08T15:31:23 IST" name="Test" finished-at="2025-05-08T15:32:16 IST" duration-ms="52996">
+      <class name="testCases.TC_Invalid_Valid_Login_Credentials">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_Invalid_Valid_Login_Credentials@7749bf93]" started-at="2025-05-08T15:31:23 IST" name="setUp" finished-at="2025-05-08T15:31:26 IST" duration-ms="2187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Invalid_Email()[pri:0, instance:testCases.TC_Invalid_Valid_Login_Credentials@7749bf93]" started-at="2025-05-08T15:31:26 IST" name="Invalid_Email" finished-at="2025-05-08T15:31:27 IST" duration-ms="1272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invalid_Email -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testCases.TC_Invalid_Valid_Login_Credentials@7749bf93]" started-at="2025-05-08T15:31:27 IST" name="TearDown" finished-at="2025-05-08T15:31:27 IST" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_Invalid_Valid_Login_Credentials@7749bf93]" started-at="2025-05-08T15:31:27 IST" name="setUp" finished-at="2025-05-08T15:31:29 IST" duration-ms="2020" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Invalid_Password()[pri:0, instance:testCases.TC_Invalid_Valid_Login_Credentials@7749bf93]" started-at="2025-05-08T15:31:29 IST" name="Invalid_Password" finished-at="2025-05-08T15:31:31 IST" duration-ms="1483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invalid_Password -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testCases.TC_Invalid_Valid_Login_Credentials@7749bf93]" started-at="2025-05-08T15:31:31 IST" name="TearDown" finished-at="2025-05-08T15:31:31 IST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_Invalid_Valid_Login_Credentials@7749bf93]" started-at="2025-05-08T15:31:31 IST" name="setUp" finished-at="2025-05-08T15:31:33 IST" duration-ms="1888" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="valid_Credentials()[pri:0, instance:testCases.TC_Invalid_Valid_Login_Credentials@7749bf93]" started-at="2025-05-08T15:31:33 IST" name="valid_Credentials" finished-at="2025-05-08T15:31:34 IST" duration-ms="1508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valid_Credentials -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testCases.TC_Invalid_Valid_Login_Credentials@7749bf93]" started-at="2025-05-08T15:31:34 IST" name="TearDown" finished-at="2025-05-08T15:31:34 IST" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- testCases.TC_Invalid_Valid_Login_Credentials -->
+      <class name="testCases.TC03_LoginDD">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC03_LoginDD@6bca7e0d]" started-at="2025-05-08T15:31:35 IST" name="setUp" finished-at="2025-05-08T15:31:38 IST" duration-ms="2617" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Invalid_Email(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC03_LoginDD@6bca7e0d]" started-at="2025-05-08T15:31:38 IST" name="Invalid_Email" data-provider="LoginData" finished-at="2025-05-08T15:32:09 IST" duration-ms="31449" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aaa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[   ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Please enter a valid email address!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invalid_Email -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testCases.TC03_LoginDD@6bca7e0d]" started-at="2025-05-08T15:32:09 IST" name="TearDown" finished-at="2025-05-08T15:32:09 IST" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC03_LoginDD@6bca7e0d]" started-at="2025-05-08T15:32:09 IST" name="setUp" finished-at="2025-05-08T15:32:11 IST" duration-ms="1752" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Invalid_Email(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC03_LoginDD@6bca7e0d]" started-at="2025-05-08T15:32:11 IST" name="Invalid_Email" data-provider="LoginData" finished-at="2025-05-08T15:32:13 IST" duration-ms="1467" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test5@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sdsd1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Username and Password is invalid!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invalid_Email -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testCases.TC03_LoginDD@6bca7e0d]" started-at="2025-05-08T15:32:13 IST" name="TearDown" finished-at="2025-05-08T15:32:13 IST" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC03_LoginDD@6bca7e0d]" started-at="2025-05-08T15:32:13 IST" name="setUp" finished-at="2025-05-08T15:32:14 IST" duration-ms="1690" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Invalid_Email(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC03_LoginDD@6bca7e0d]" started-at="2025-05-08T15:32:14 IST" name="Invalid_Email" data-provider="LoginData" finished-at="2025-05-08T15:32:16 IST" duration-ms="1530" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test24@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[new@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Categories]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invalid_Email -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testCases.TC03_LoginDD@6bca7e0d]" started-at="2025-05-08T15:32:16 IST" name="TearDown" finished-at="2025-05-08T15:32:16 IST" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- testCases.TC03_LoginDD -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

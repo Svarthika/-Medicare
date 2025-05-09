@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="27.635" tests="6" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\shank\eclipse-workspace\test.simplilearn\test-output\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="sun.awt.enableExtraMouseButtons" value="true"/>
+    <property name="java.class.path" value="C:\Users\shank\eclipse-workspace\Medicare\target\test-classes;C:\Users\shank\eclipse-workspace\Medicare\target\classes;C:\Users\shank\.m2\repository\org\seleniumhq\selenium\selenium-java\4.25.0\selenium-java-4.25.0.jar;C:\Users\shank\.m2\repository\org\seleniumhq\selenium\selenium-api\4.25.0\selenium-api-4.25.0.jar;C:\Users\shank\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\shank\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.25.0\selenium-chrome-driver-4.25.0.jar;C:\Users\shank\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\shank\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.25.0\selenium-chromium-driver-4.25.0.jar;C:\Users\shank\.m2\repository\org\seleniumhq\selenium\selenium-json\4.25.0\selenium-json-4.25.0.jar;C:\Users\shank\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.25.0\selenium-manager-4.25.0.jar;C:\Users\shank\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.25.0\selenium-devtools-v127-4.25.0.jar;C:\Users\shank\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v128\4.25.0\selenium-devtools-v128-4.25.0.jar;C:\Users\shank\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.25.0\selenium-devtools-v129-4.25.0.jar;C:\Users\shank\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.25.0\selenium-devtools-v85-4.25.0.jar;C:\Users\shank\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.25.0\selenium-edge-driver-4.25.0.jar;C:\Users\shank\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.25.0\selenium-firefox-driver-4.25.0.jar;C:\Users\shank\.m2\repository\org\seleniumhq\selenium\selenium-http\4.25.0\selenium-http-4.25.0.jar;C:\Users\shank\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\shank\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.25.0\selenium-ie-driver-4.25.0.jar;C:\Users\shank\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.25.0\selenium-remote-driver-4.25.0.jar;C:\Users\shank\.m2\repository\com\google\guava\guava\33.3.0-jre\guava-33.3.0-jre.jar;C:\Users\shank\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\shank\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\shank\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\shank\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\shank\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\shank\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\shank\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\shank\.m2\repository\io\opentelemetry\opentelemetry-api\1.42.1\opentelemetry-api-1.42.1.jar;C:\Users\shank\.m2\repository\io\opentelemetry\opentelemetry-context\1.42.1\opentelemetry-context-1.42.1.jar;C:\Users\shank\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.42.1\opentelemetry-exporter-logging-1.42.1.jar;C:\Users\shank\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.42.1\opentelemetry-sdk-common-1.42.1.jar;C:\Users\shank\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.42.1\opentelemetry-sdk-extension-autoconfigure-spi-1.42.1.jar;C:\Users\shank\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.42.1\opentelemetry-sdk-extension-autoconfigure-1.42.1.jar;C:\Users\shank\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.42.1-alpha\opentelemetry-api-incubator-1.42.1-alpha.jar;C:\Users\shank\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.42.1\opentelemetry-sdk-trace-1.42.1.jar;C:\Users\shank\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.42.1\opentelemetry-sdk-1.42.1.jar;C:\Users\shank\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.42.1\opentelemetry-sdk-metrics-1.42.1.jar;C:\Users\shank\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.42.1\opentelemetry-sdk-logs-1.42.1.jar;C:\Users\shank\.m2\repository\net\bytebuddy\byte-buddy\1.15.1\byte-buddy-1.15.1.jar;C:\Users\shank\.m2\repository\org\seleniumhq\selenium\selenium-os\4.25.0\selenium-os-4.25.0.jar;C:\Users\shank\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\shank\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.25.0\selenium-safari-driver-4.25.0.jar;C:\Users\shank\.m2\repository\org\seleniumhq\selenium\selenium-support\4.25.0\selenium-support-4.25.0.jar;C:\Users\shank\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\shank\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\shank\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\shank\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\shank\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\shank\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\shank\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\shank\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\shank\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\shank\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\shank\.m2\repository\org\apache\logging\log4j\log4j-core\2.24.3\log4j-core-2.24.3.jar;C:\Users\shank\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\shank\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.24.3\log4j-slf4j-impl-2.24.3.jar;C:\Users\shank\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\shank\.m2\repository\commons-io\commons-io\2.18.0\commons-io-2.18.0.jar;C:\Users\shank\.m2\repository\org\apache\commons\commons-lang3\3.17.0\commons-lang3-3.17.0.jar;C:\Users\shank\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\shank\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\shank\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\shank\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\shank\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\shank\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\shank\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\shank\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\shank\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\shank\.m2\repository\org\apache\maven\plugins\maven-compiler-plugin\3.10.1\maven-compiler-plugin-3.10.1.jar;C:\Users\shank\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.3.4\maven-shared-utils-3.3.4.jar;C:\Users\shank\.m2\repository\org\apache\maven\shared\maven-shared-incremental\1.1\maven-shared-incremental-1.1.jar;C:\Users\shank\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\shank\.m2\repository\org\codehaus\plexus\plexus-java\1.1.1\plexus-java-1.1.1.jar;C:\Users\shank\.m2\repository\org\ow2\asm\asm\9.2\asm-9.2.jar;C:\Users\shank\.m2\repository\com\thoughtworks\qdox\qdox\2.0.1\qdox-2.0.1.jar;C:\Users\shank\.m2\repository\org\codehaus\plexus\plexus-compiler-api\2.11.1\plexus-compiler-api-2.11.1.jar;C:\Users\shank\.m2\repository\org\codehaus\plexus\plexus-utils\3.4.1\plexus-utils-3.4.1.jar;C:\Users\shank\.m2\repository\org\codehaus\plexus\plexus-compiler-manager\2.11.1\plexus-compiler-manager-2.11.1.jar;C:\Users\shank\.m2\repository\org\codehaus\plexus\plexus-compiler-javac\2.11.1\plexus-compiler-javac-2.11.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\shank\AppData\Local\Temp\surefire7411752885981831952\surefirebooter-20250508160612710_3.jar C:\Users\shank\AppData\Local\Temp\surefire7411752885981831952 2025-05-08T16-06-12_584-jvmRun1 surefire-20250508160612710_1tmp surefire_0-20250508160612710_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\shank\eclipse-workspace\Medicare\target\test-classes;C:\Users\shank\eclipse-workspace\Medicare\target\classes;C:\Users\shank\.m2\repository\org\seleniumhq\selenium\selenium-java\4.25.0\selenium-java-4.25.0.jar;C:\Users\shank\.m2\repository\org\seleniumhq\selenium\selenium-api\4.25.0\selenium-api-4.25.0.jar;C:\Users\shank\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\shank\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.25.0\selenium-chrome-driver-4.25.0.jar;C:\Users\shank\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\shank\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.25.0\selenium-chromium-driver-4.25.0.jar;C:\Users\shank\.m2\repository\org\seleniumhq\selenium\selenium-json\4.25.0\selenium-json-4.25.0.jar;C:\Users\shank\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.25.0\selenium-manager-4.25.0.jar;C:\Users\shank\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.25.0\selenium-devtools-v127-4.25.0.jar;C:\Users\shank\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v128\4.25.0\selenium-devtools-v128-4.25.0.jar;C:\Users\shank\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.25.0\selenium-devtools-v129-4.25.0.jar;C:\Users\shank\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.25.0\selenium-devtools-v85-4.25.0.jar;C:\Users\shank\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.25.0\selenium-edge-driver-4.25.0.jar;C:\Users\shank\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.25.0\selenium-firefox-driver-4.25.0.jar;C:\Users\shank\.m2\repository\org\seleniumhq\selenium\selenium-http\4.25.0\selenium-http-4.25.0.jar;C:\Users\shank\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\shank\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.25.0\selenium-ie-driver-4.25.0.jar;C:\Users\shank\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.25.0\selenium-remote-driver-4.25.0.jar;C:\Users\shank\.m2\repository\com\google\guava\guava\33.3.0-jre\guava-33.3.0-jre.jar;C:\Users\shank\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\shank\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\shank\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\shank\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\shank\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\shank\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\shank\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\shank\.m2\repository\io\opentelemetry\opentelemetry-api\1.42.1\opentelemetry-api-1.42.1.jar;C:\Users\shank\.m2\repository\io\opentelemetry\opentelemetry-context\1.42.1\opentelemetry-context-1.42.1.jar;C:\Users\shank\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.42.1\opentelemetry-exporter-logging-1.42.1.jar;C:\Users\shank\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.42.1\opentelemetry-sdk-common-1.42.1.jar;C:\Users\shank\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.42.1\opentelemetry-sdk-extension-autoconfigure-spi-1.42.1.jar;C:\Users\shank\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.42.1\opentelemetry-sdk-extension-autoconfigure-1.42.1.jar;C:\Users\shank\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.42.1-alpha\opentelemetry-api-incubator-1.42.1-alpha.jar;C:\Users\shank\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.42.1\opentelemetry-sdk-trace-1.42.1.jar;C:\Users\shank\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.42.1\opentelemetry-sdk-1.42.1.jar;C:\Users\shank\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.42.1\opentelemetry-sdk-metrics-1.42.1.jar;C:\Users\shank\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.42.1\opentelemetry-sdk-logs-1.42.1.jar;C:\Users\shank\.m2\repository\net\bytebuddy\byte-buddy\1.15.1\byte-buddy-1.15.1.jar;C:\Users\shank\.m2\repository\org\seleniumhq\selenium\selenium-os\4.25.0\selenium-os-4.25.0.jar;C:\Users\shank\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\shank\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.25.0\selenium-safari-driver-4.25.0.jar;C:\Users\shank\.m2\repository\org\seleniumhq\selenium\selenium-support\4.25.0\selenium-support-4.25.0.jar;C:\Users\shank\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\shank\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\shank\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\shank\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\shank\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\shank\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\shank\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\shank\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\shank\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\shank\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\shank\.m2\repository\org\apache\logging\log4j\log4j-core\2.24.3\log4j-core-2.24.3.jar;C:\Users\shank\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\shank\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.24.3\log4j-slf4j-impl-2.24.3.jar;C:\Users\shank\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\shank\.m2\repository\commons-io\commons-io\2.18.0\commons-io-2.18.0.jar;C:\Users\shank\.m2\repository\org\apache\commons\commons-lang3\3.17.0\commons-lang3-3.17.0.jar;C:\Users\shank\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\shank\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\shank\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\shank\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\shank\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\shank\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\shank\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\shank\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\shank\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\shank\.m2\repository\org\apache\maven\plugins\maven-compiler-plugin\3.10.1\maven-compiler-plugin-3.10.1.jar;C:\Users\shank\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.3.4\maven-shared-utils-3.3.4.jar;C:\Users\shank\.m2\repository\org\apache\maven\shared\maven-shared-incremental\1.1\maven-shared-incremental-1.1.jar;C:\Users\shank\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\shank\.m2\repository\org\codehaus\plexus\plexus-java\1.1.1\plexus-java-1.1.1.jar;C:\Users\shank\.m2\repository\org\ow2\asm\asm\9.2\asm-9.2.jar;C:\Users\shank\.m2\repository\com\thoughtworks\qdox\qdox\2.0.1\qdox-2.0.1.jar;C:\Users\shank\.m2\repository\org\codehaus\plexus\plexus-compiler-api\2.11.1\plexus-compiler-api-2.11.1.jar;C:\Users\shank\.m2\repository\org\codehaus\plexus\plexus-utils\3.4.1\plexus-utils-3.4.1.jar;C:\Users\shank\.m2\repository\org\codehaus\plexus\plexus-compiler-manager\2.11.1\plexus-compiler-manager-2.11.1.jar;C:\Users\shank\.m2\repository\org\codehaus\plexus\plexus-compiler-javac\2.11.1\plexus-compiler-javac-2.11.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\shank"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\shank\eclipse-workspace\Medicare"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\shank\AppData\Local\Temp\surefire7411752885981831952\surefirebooter-20250508160612710_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
+    <property name="user.name" value="shank"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\shank\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\shank\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.12"/>
+    <property name="user.dir" value="C:\Users\shank\eclipse-workspace\Medicare"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\ProgramData\chocolatey\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\shank\Downloads\allure-commandline-2.10.0\allure-2.10.0\bin\;C:\Program Files\Java\jdk-17\bin;C:\Program Files\apache-maven-4.0.0-alpha-4-bin\apache-maven-4.0.0-alpha-4\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\dotnet\;C:\Users\shank\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3\bin;;C:\Program Files\Java\jdk-17\bin;C:\Program Files\apache-maven-4.0.0-alpha-4-bin\apache-maven-4.0.0-alpha-4\bin;C:\Users\shank\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\shank\AppData\Roaming\npm;C:\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Users\shank\AppData\Local\Muse Hub\lib;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.12+8-LTS-286"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="Invalid_Email" classname="testCases.TC_Invalid_Valid_Login_Credentials" time="1.286">
+    <system-err><![CDATA[May 08, 2025 4:06:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 135
+May 08, 2025 4:06:15 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 135.0.7049.117. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Invalid_Password" classname="testCases.TC_Invalid_Valid_Login_Credentials" time="1.253">
+    <failure message="element click intercepted: Element &lt;a href=&quot;/medicare3/login&quot;&gt;...&lt;/a&gt; is not clickable at point (1290, 32). Other element would receive the click: &lt;div class=&quot;se-pre-con&quot; style=&quot;opacity: 0.00115786;&quot;&gt;&lt;/div&gt;&#10;  (Session info: chrome=135.0.7049.117)&#10;Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [a7d22ba43b4a4e5f356dcacad737755a, clickElement {id=f.6C27C673830B1D69C4D3D95BCB72A8D7.d.079B5A279ACAEFD34143A00969364EB1.e.20}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.117, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\shank\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60905}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60905/devtoo..., se:cdpVersion: 135.0.7049.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on windows (a7d22ba43b4a4e5f356dcacad737755a)] -&gt; css selector: a[href=&apos;/medicare3/login&apos;]]&#10;Session ID: a7d22ba43b4a4e5f356dcacad737755a" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="/medicare3/login">...</a> is not clickable at point (1290, 32). Other element would receive the click: <div class="se-pre-con" style="opacity: 0.00115786;"></div>
+  (Session info: chrome=135.0.7049.117)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a7d22ba43b4a4e5f356dcacad737755a, clickElement {id=f.6C27C673830B1D69C4D3D95BCB72A8D7.d.079B5A279ACAEFD34143A00969364EB1.e.20}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.117, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\shank\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60905}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60905/devtoo..., se:cdpVersion: 135.0.7049.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a7d22ba43b4a4e5f356dcacad737755a)] -> css selector: a[href='/medicare3/login']]
+Session ID: a7d22ba43b4a4e5f356dcacad737755a
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.click(Unknown Source)
+	at pageObjects.homePage.Login(homePage.java:38)
+	at testCases.TC_Invalid_Valid_Login_Credentials.Invalid_Password(TC_Invalid_Valid_Login_Credentials.java:57)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-err><![CDATA[May 08, 2025 4:06:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 135
+May 08, 2025 4:06:18 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 135.0.7049.117. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="valid_Credentials" classname="testCases.TC_Invalid_Valid_Login_Credentials" time="1.226">
+    <failure message="element click intercepted: Element &lt;a href=&quot;/medicare3/login&quot;&gt;...&lt;/a&gt; is not clickable at point (1290, 32). Other element would receive the click: &lt;div class=&quot;se-pre-con&quot; style=&quot;opacity: 0.00115786;&quot;&gt;&lt;/div&gt;&#10;  (Session info: chrome=135.0.7049.117)&#10;Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [c10540a02908e0d3c161dfcfb6242c80, clickElement {id=f.6D8786C1D62D0C65B86255C95AE96EEF.d.5BCC13E56071D8233629AE23D529A932.e.20}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.117, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\shank\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60936}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60936/devtoo..., se:cdpVersion: 135.0.7049.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on windows (c10540a02908e0d3c161dfcfb6242c80)] -&gt; css selector: a[href=&apos;/medicare3/login&apos;]]&#10;Session ID: c10540a02908e0d3c161dfcfb6242c80" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="/medicare3/login">...</a> is not clickable at point (1290, 32). Other element would receive the click: <div class="se-pre-con" style="opacity: 0.00115786;"></div>
+  (Session info: chrome=135.0.7049.117)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c10540a02908e0d3c161dfcfb6242c80, clickElement {id=f.6D8786C1D62D0C65B86255C95AE96EEF.d.5BCC13E56071D8233629AE23D529A932.e.20}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.117, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\shank\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60936}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60936/devtoo..., se:cdpVersion: 135.0.7049.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c10540a02908e0d3c161dfcfb6242c80)] -> css selector: a[href='/medicare3/login']]
+Session ID: c10540a02908e0d3c161dfcfb6242c80
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.click(Unknown Source)
+	at pageObjects.homePage.Login(homePage.java:38)
+	at testCases.TC_Invalid_Valid_Login_Credentials.valid_Credentials(TC_Invalid_Valid_Login_Credentials.java:73)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-err><![CDATA[May 08, 2025 4:06:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 135
+May 08, 2025 4:06:22 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 135.0.7049.117. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Invalid_Email[aaa,    , Please enter a valid email address!](1)" classname="testCases.TC03_LoginDD" time="1.259">
+    <failure message="element click intercepted: Element &lt;a href=&quot;/medicare3/login&quot;&gt;...&lt;/a&gt; is not clickable at point (1290, 32). Other element would receive the click: &lt;div class=&quot;se-pre-con&quot; style=&quot;opacity: 0.00362133;&quot;&gt;&lt;/div&gt;&#10;  (Session info: chrome=135.0.7049.117)&#10;Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [b2db930960a79b3e949254abf3213e34, clickElement {id=f.F2F49970F125E4E5C02ACFB3521A8764.d.4C53059C025F48EBACCBABC23F6B07F7.e.20}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.117, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\shank\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60965}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60965/devtoo..., se:cdpVersion: 135.0.7049.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on windows (b2db930960a79b3e949254abf3213e34)] -&gt; css selector: a[href=&apos;/medicare3/login&apos;]]&#10;Session ID: b2db930960a79b3e949254abf3213e34" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="/medicare3/login">...</a> is not clickable at point (1290, 32). Other element would receive the click: <div class="se-pre-con" style="opacity: 0.00362133;"></div>
+  (Session info: chrome=135.0.7049.117)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2db930960a79b3e949254abf3213e34, clickElement {id=f.F2F49970F125E4E5C02ACFB3521A8764.d.4C53059C025F48EBACCBABC23F6B07F7.e.20}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.117, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\shank\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60965}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60965/devtoo..., se:cdpVersion: 135.0.7049.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b2db930960a79b3e949254abf3213e34)] -> css selector: a[href='/medicare3/login']]
+Session ID: b2db930960a79b3e949254abf3213e34
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.click(Unknown Source)
+	at pageObjects.homePage.Login(homePage.java:38)
+	at testCases.TC03_LoginDD.Invalid_Email(TC03_LoginDD.java:42)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[<xml-fragment r="2" spans="1:3" x14ac:dyDescent="0.3" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:x14ac="http://schemas.microsoft.com/office/spreadsheetml/2009/9/ac" xmlns:main="http://schemas.openxmlformats.org/spreadsheetml/2006/main">
+  <main:c r="A2" t="s">
+    <main:v>2</main:v>
+  </main:c>
+  <main:c r="B2" t="s">
+    <main:v>3</main:v>
+  </main:c>
+  <main:c r="C2" t="s">
+    <main:v>5</main:v>
+  </main:c>
+</xml-fragment>
+]]></system-out>
+    <system-err><![CDATA[May 08, 2025 4:06:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 135
+May 08, 2025 4:06:26 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 135.0.7049.117. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Invalid_Email[Test5@gmail.com, sdsd1, Username and Password is invalid!](2)" classname="testCases.TC03_LoginDD" time="1.221">
+    <failure message="element click intercepted: Element &lt;a href=&quot;/medicare3/login&quot;&gt;...&lt;/a&gt; is not clickable at point (1290, 32). Other element would receive the click: &lt;div class=&quot;se-pre-con&quot; style=&quot;opacity: 0.00115786;&quot;&gt;&lt;/div&gt;&#10;  (Session info: chrome=135.0.7049.117)&#10;Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [c41fed4078d2bbf95291b8f8ed76c03b, clickElement {id=f.E10EEEC969582BAF069D3B8362DE656F.d.E702DA24127758A8D54A32D3E14F14E1.e.20}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.117, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\shank\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60993}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60993/devtoo..., se:cdpVersion: 135.0.7049.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on windows (c41fed4078d2bbf95291b8f8ed76c03b)] -&gt; css selector: a[href=&apos;/medicare3/login&apos;]]&#10;Session ID: c41fed4078d2bbf95291b8f8ed76c03b" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="/medicare3/login">...</a> is not clickable at point (1290, 32). Other element would receive the click: <div class="se-pre-con" style="opacity: 0.00115786;"></div>
+  (Session info: chrome=135.0.7049.117)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c41fed4078d2bbf95291b8f8ed76c03b, clickElement {id=f.E10EEEC969582BAF069D3B8362DE656F.d.E702DA24127758A8D54A32D3E14F14E1.e.20}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.117, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\shank\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60993}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60993/devtoo..., se:cdpVersion: 135.0.7049.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c41fed4078d2bbf95291b8f8ed76c03b)] -> css selector: a[href='/medicare3/login']]
+Session ID: c41fed4078d2bbf95291b8f8ed76c03b
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.click(Unknown Source)
+	at pageObjects.homePage.Login(homePage.java:38)
+	at testCases.TC03_LoginDD.Invalid_Email(TC03_LoginDD.java:42)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-err><![CDATA[May 08, 2025 4:06:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 135
+May 08, 2025 4:06:31 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 135.0.7049.117. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Invalid_Email[Test24@gmail.com, new@123, Categories](3)" classname="testCases.TC03_LoginDD" time="1.618">
+    <system-err><![CDATA[May 08, 2025 4:06:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 135
+May 08, 2025 4:06:36 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 135.0.7049.117. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+</testsuite>

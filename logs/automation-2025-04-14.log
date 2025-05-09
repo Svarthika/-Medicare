@@ -1,0 +1,57 @@
+14:59:36.685 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:59:36.690 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:59:36.690 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:59:36.690 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:59:36.690 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:59:36.691 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:59:36.691 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:59:36.692 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:59:36.692 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:59:36.692 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:59:36.692 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:59:36.697 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+14:59:36.704 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 7 ms.
+14:59:36.705 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:59:36.705 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:59:36.707 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:59:36.707 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:59:36.707 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:59:36.707 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:59:36.709 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:59:36.714 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 5 ms.
+14:59:36.715 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:59:36.716 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:59:36.716 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:59:36.716 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:59:36.722 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\shank\AppData\Local\Temp\testng-eclipse--1026787411\testng-customsuite.xml
+
+14:59:36.737 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 3 ms.
+14:59:38.976 [main] INFO  testCases.TC_Invalid_Valid_Login_Credentials - ----TC_Invalid_Valid_Login_Credentials-----
+14:59:40.107 [main] INFO  testCases.TC_Invalid_Valid_Login_Credentials - ----User enters invalid user name-----
+14:59:43.264 [main] INFO  testCases.TC_Invalid_Valid_Login_Credentials - ----user Enter invalid PAssword-----
+14:59:46.520 [main] INFO  testCases.TC_Invalid_Valid_Login_Credentials - ----user Enter valid Username and Password-----
+14:59:47.193 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@14f3c6fc: 41 ms
+14:59:47.193 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@3cd59ef5: 0 ms
+14:59:47.204 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@2257fadf: 10 ms
+14:59:47.209 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@53ac845a: 5 ms
+14:59:47.212 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@3cee53dc: 3 ms
+14:59:47.212 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@290aeb20: 0 ms
+15:27:50.070 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\shank\eclipse-workspace\Medicare\testng.xml
+
+15:29:24.662 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\shank\eclipse-workspace\Medicare\testng.xml
+
+15:33:50.546 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\shank\eclipse-workspace\Medicare\testng.xml
+
+15:35:09.919 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\shank\eclipse-workspace\Medicare\testng.xml
+
+15:37:57.700 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\shank\eclipse-workspace\Medicare\testng.xml
+
+15:38:41.694 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\shank\eclipse-workspace\Medicare\testngparameter.xml
+
